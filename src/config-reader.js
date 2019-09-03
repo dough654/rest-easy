@@ -4,7 +4,8 @@ const joi = require('joi')
 
 const configSchema = joi.object().keys({
     payloadDir: joi.string().default(path.resolve('./rest-easy/payloads')),
-    testsDir: joi.string().default(path.resolve('./rest-easy/tests'))
+    testsDir: joi.string().default(path.resolve('./rest-easy/tests')),
+    featuresDir: joi.string().default(path.resolve('./rest-easy/features'))
 })
 
 module.exports = {

@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/dough654/rest-easy#readme",
   "dependencies": {
+    "clone-deep": "^4.0.1",
     "command-line-args": "^5.1.1",
+    "gherkin": "^7.0.3",
     "joi": "^14.3.1",
     "mocha": "^6.2.0",
     "sync-request": "^6.1.0"
