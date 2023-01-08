@@ -1,0 +1,37 @@
+{
+  "name": "rest-easy",
+  "version": "1.0.0",
+  "description": "An opinionated library for testing REST APIs",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dough654/rest-easy.git"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "Node.js",
+    "Testing"
+  ],
+  "author": "Doug Gerhardt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dough654/rest-easy/issues"
+  },
+  "homepage": "https://github.com/dough654/rest-easy#readme",
+  "dependencies": {
+    "clone-deep": "^4.0.1",
+    "command-line-args": "^5.1.1",
+    "gherkin": "^7.0.3",
+    "joi": "^14.3.1",
+    "mocha": "^6.2.0",
+    "sync-request": "^6.1.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "sinon": "^7.4.1"
+  }
+}
